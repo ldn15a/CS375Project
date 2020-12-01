@@ -6,7 +6,7 @@
 - Design:
     There are two main programs here: "SchubsArc" and "Deschubs". SchubsArc is for taking one or more files and combining them all in a compressed archive file. While Deschubs will take that same compressed archive file and expand it to give you the original files used to create the it. Huffman is used for the compression and tar is used for the archive.
 
--Installation:
+- Installation:
     It's as simple as downloading all the needed classe (recommended to just download my ACU username directory) and run whichever of the two program you wish to run. No other installation steps are necessary besides the (trivial) Java and Maven installation processes. (Maven only required for running the test)
 
 - CLI and testing:
