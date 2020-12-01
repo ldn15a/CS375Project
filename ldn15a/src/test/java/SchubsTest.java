@@ -1,10 +1,9 @@
 /*************************************************************************
  *  Lucas Newton
- *  Compilation:        javac TarsN.java
- *  Execution:          java -cp ./src/main/java TarsN target.tar source1.txt source2.txt sourceN.txt ...
- *  Maven Test:         mvn test
+ *  Compilation:        javac SchubsTest.java
+ *  Execution:          mvn test
  *  Date:               Fall 2020
- *  Dependencies:       BinaryIn.java BinaryOut.java
+ *  Dependencies:       BinaryIn.java BinaryOut.java LZW.java Huffman.java
 *************************************************************************/
 import static org.junit.Assert.*;
 
@@ -24,7 +23,7 @@ import java.io.*;    // because I'm lazy
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
-public class LZWTest
+public class SchubsTest
 {
     @Test
     public void noArgsTest() throws FileNotFoundException

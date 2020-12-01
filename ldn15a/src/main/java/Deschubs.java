@@ -1,3 +1,10 @@
+/*************************************************************************
+ *  Lucas Newton
+ *  Compilation:        javac Deschubs.java
+ *  Execution:          java Deschubs archiveName
+ *  Date:               Fall 2020
+ *  Dependencies:       BinaryIn.java BinaryOut.java Huffman.java
+*************************************************************************/
 import java.io.FileNotFoundException;
 import java.io.File;
 

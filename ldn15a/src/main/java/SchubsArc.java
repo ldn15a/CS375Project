@@ -1,3 +1,10 @@
+/*************************************************************************
+ *  Lucas Newton
+ *  Compilation:        javac SchubsArc.java
+ *  Execution:          java SchubsArc archiveName file1.txt file2.txt file3.txt ...
+ *  Date:               Fall 2020
+ *  Dependencies:       BinaryIn.java BinaryOut.java Huffman.java
+*************************************************************************/
 import java.io.FileNotFoundException;
 import java.io.File;
 
